@@ -41,4 +41,23 @@
     background-color: #DDD;
 
 }
+.hovedside{
+    margin: auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.div_person{
+    width: 100%;
+    margin: auto;
+}
+.p_person{
+    width: 50%;
+    margin: auto;
+}
+.img_person{
+    margin: auto;
+    width: 100%;
+    align-content: center;
+}
 
