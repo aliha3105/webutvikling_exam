@@ -67,4 +67,10 @@
     margin-top: 20px;
     margin-bottom: 20px;
 }
+.p_contactInfo{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    font-size: 18px;
+}
 
