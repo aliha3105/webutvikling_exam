@@ -50,14 +50,21 @@
 .div_person{
     width: 100%;
     margin: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 .p_person{
     width: 50%;
     margin: auto;
+    text-align: center;
+    font-size: 18px;
 }
 .img_person{
     margin: auto;
     width: 100%;
+    display: flex;
     align-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
