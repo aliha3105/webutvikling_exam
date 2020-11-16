@@ -4,26 +4,49 @@
 
 
 
-.navbar{   
-    background-color: rgb(45, 167, 167);
+
+.navbar{
+    overflow: hidden;
     position: fixed;
-    width: 100%;
     top: 0;
     right: 0;
-    /*height: 124px; */
+    width: 100%;
+    background-color: rgb(85, 181, 96);
+    min-height: 14vh;
+    justify-content: space-around;
+    display: flex;
+    align-items: center; 
+    z-index: 200;
+    
+}
+
+.logo{
+    width: 180x;
+    height: 90px;
+}
+
+.navigationButtons{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    
-    font-size: 27px;
+    list-style: none;
+    color:black;
+    width: 83%;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 22pt;
+}
+
+.navigationButtons a{
     text-decoration: none;
     color: black;
-    /*box-shadow: 0px 4px 8px;*/
-    letter-spacing: 3px;    
-    opacity: 100%;
-    /*z-index: 99;*/
 }
+
+.navigationButtons a:hover{
+    text-decoration: underline;
+    font-weight: bold;
+    color: black;
+}
+
 
 .navbar ul{
     list-style: none;
