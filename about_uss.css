@@ -140,3 +140,83 @@ h4{
     text-align: center;
     font-size: 30px;
 }
+
+/* RESPONSIV NAVBAR BROR */
+
+
+@media only screen and (max-width:1150px){
+    .navbar{
+        height: 55px;
+        font-size: 20px;
+
+        
+    }
+
+}
+
+@media only screen and (max-width:837px){
+
+   
+
+    .navigationButtons{
+    
+        font-size: 15pt;
+    }
+
+  
+    
+}
+
+@media only screen and (max-width:540px){
+
+    .logo{
+        width: 160x;
+        height: 70px;
+    }
+
+ 
+    .navigationButtons{
+
+        font-size: 12pt;
+
+
+    }
+}
+
+@media only screen and (max-width:441px){
+
+    .logo{
+        width: 140x;
+        height: 50px;
+    }
+    
+    .navigationButtons{
+        margin-right: 20px;
+        margin-left: -5px;
+        padding-left: -5px;
+    }
+    
+    .navigationButtons{
+        font-size: 9pt;
+      
+    }
+}
+
+@media only screen and (max-width:376px){
+
+    .logo{
+        width: 140x;
+        height: 50px;
+    }
+    
+    .navigationButtons{
+        margin-right: 20px;
+        margin-left: -30px;
+        
+    }
+    
+    .navigationButtons{
+        font-size: 9pt;
+      
+    }
+}
