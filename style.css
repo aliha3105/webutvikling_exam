@@ -37,7 +37,6 @@
 
 .navigationButtons a:hover{
     text-decoration: underline;
-    font-weight: bold;
     color: black;
 }
 
@@ -52,17 +51,14 @@
 }
 
 .navbar a{
-    padding: 0px; 
+    padding: 2px; 
     text-decoration: none;
     color: black;
     transition: 0.5s;
 }
 
-.navbar a:hover{
-    text-decoration: underline;
-    color: rgb(16, 78, 16)
 
-}
+
 
 /* SOLUTION */
 
@@ -75,6 +71,9 @@
 .solution-overskrift1{
     margin-top: 200px;
     width: 100%;
+    color:   rgb(16, 78, 16);
+    font-size: 30px;
+
 }
 
 @media only screen and (max-width:1150px){
