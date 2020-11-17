@@ -33,7 +33,7 @@ h1, image{
   position: relative;
   text-align: center;
   color: rgb(16, 78, 16);
-  height: 200px;
+  height: 100px;
   
   
 }
@@ -41,7 +41,8 @@ h1, image{
 .img-banner{
     height: 300px;
     width: 700px;
-    opacity: 0.4;
+    opacity: 0.8;
+    
     
 
 }
