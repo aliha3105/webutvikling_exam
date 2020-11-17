@@ -53,8 +53,10 @@ h3{
     font-size: 22px;
     margin-bottom: 15px;
 }
-img{
+.img_person{
     margin: auto;
+    width: 300px;
+    height: 400px;
 }
 h4{
     width: 100%;
