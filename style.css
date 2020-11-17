@@ -19,6 +19,8 @@
     height: 90px;
 }
 
+
+
 .navigationButtons{
     display: flex;
     justify-content: space-around;
@@ -39,6 +41,8 @@
     text-decoration: underline;
     color: black;
 }
+
+
 
 .navbar ul{
     list-style: none;
