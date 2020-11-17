@@ -32,15 +32,16 @@ h1, image{
 .banner{
   position: relative;
   text-align: center;
-  color: white;
+  color: rgb(16, 78, 16);
   height: 200px;
-  background-repeat: repeat-x;
+  
   
 }
 
 .img-banner{
     height: 300px;
     width: 700px;
+    opacity: 0.4;
     
 
 }
