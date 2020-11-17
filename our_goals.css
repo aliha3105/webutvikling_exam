@@ -1,0 +1,30 @@
+h1{
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    
+
+    
+
+}
+.hovedside{
+    margin-top: 100px;
+    
+}
+.hovedside img{
+ 
+    background-position:auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 900px;
+    
+    
+
+  
+}
+h1, image{
+    height: 20px;
+    background-size: auto;
+    background-position: center;
+
+}
