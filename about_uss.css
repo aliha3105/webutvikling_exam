@@ -1,77 +1,6 @@
-.body{
-    width: 100%;
-}
-
-
-
-
-.navbar{
-    overflow: hidden;
-    position: fixed;
-    top: 0;
-    right: 0;
-    width: 100%;
-    background-color: rgb(85, 181, 96);
-    min-height: 14vh;
-    justify-content: space-around;
-    display: flex;
-    align-items: center; 
-    z-index: 200;
-    
-}
-
-.logo{
-    width: 180x;
-    height: 90px;
-}
-
-.navigationButtons{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    list-style: none;
-    color:black;
-    width: 83%;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 22pt;
-}
-
-.navigationButtons a{
-    text-decoration: none;
-    color: black;
-}
-
-.navigationButtons a:hover{
-    text-decoration: underline;
-    font-weight: bold;
-    color: black;
-}
-
-
-.navbar ul{
-    list-style: none;
-}
-
-.navbar li{
-    display: inline-flex;
-    padding: 0px 40px;
-}
-
-.navbar a{
-    padding: 0px; 
-    text-decoration: none;
-    color: black;
-    transition: 0.5s;
-}
-
-.navbar a:hover{
-    text-decoration: underline;
-    color: rgb(16, 78, 16)
-
-}
 .hovedside{
-    margin-top: 100px;
-    /*margin: auto; */
+    margin: auto;
+    margin-top: 170px;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -103,10 +32,6 @@
     font-size: 18px;
     margin-bottom: 20px;
 }
-
-
-
-
 h1{
     width: 100%;
     margin: auto;
@@ -139,84 +64,4 @@ h4{
     margin-bottom: 5px;
     text-align: center;
     font-size: 30px;
-}
-
-/* RESPONSIV NAVBAR BROR */
-
-
-@media only screen and (max-width:1150px){
-    .navbar{
-        height: 55px;
-        font-size: 20px;
-
-        
-    }
-
-}
-
-@media only screen and (max-width:837px){
-
-   
-
-    .navigationButtons{
-    
-        font-size: 15pt;
-    }
-
-  
-    
-}
-
-@media only screen and (max-width:540px){
-
-    .logo{
-        width: 160x;
-        height: 70px;
-    }
-
- 
-    .navigationButtons{
-
-        font-size: 12pt;
-
-
-    }
-}
-
-@media only screen and (max-width:441px){
-
-    .logo{
-        width: 140x;
-        height: 50px;
-    }
-    
-    .navigationButtons{
-        margin-right: 20px;
-        margin-left: -5px;
-        padding-left: -5px;
-    }
-    
-    .navigationButtons{
-        font-size: 9pt;
-      
-    }
-}
-
-@media only screen and (max-width:376px){
-
-    .logo{
-        width: 140x;
-        height: 50px;
-    }
-    
-    .navigationButtons{
-        margin-right: 20px;
-        margin-left: -30px;
-        
-    }
-    
-    .navigationButtons{
-        font-size: 9pt;
-      
-    }
 }
