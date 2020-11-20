@@ -133,6 +133,7 @@ h4{
         font-size: 15px;
     }
     .p_person{
+        width: 70%;
         font-size: 15px;
     }
     .p_contactInfo{
@@ -155,6 +156,7 @@ h4{
     }
     .p_person{
         font-size: 15px;
+        width: 80%;
     }
     .p_contactInfo{
         font-size: 15px;
