@@ -1,0 +1,156 @@
+
+body, html{
+    height: 100%;
+    margin:0;
+    font-size: 16px;
+    font-family: "lato", sans-serif;
+    font-weight: 400;
+    color: black;
+    line-height: 1.8em;
+
+}
+
+.pimg1, .pimg2, .pimg3, .pimg4, .pimg5, .pimg6, .pimg7{
+    position: relative;
+    opacity: 1.0;
+    background-position: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    /*fixed = parallax
+    scroll= normal*/
+
+    background-attachment: fixed;
+
+}
+
+.pimg1{
+  
+    min-height: 100%;
+   
+
+    
+}
+.pimg2{
+    background-image: url("Pictures/plukking.jpg");
+    height: 500px;
+    width: 50%;
+    float: left;
+    background-position-x: 50%;
+    background-position-y:50%;
+    border-radius: 10px;
+   
+  
+
+
+}
+.pimg3{
+    background-image: url("Pictures/trash1.jpg");
+    height: 500px;
+    width: 50%;
+    float: right;
+    background-position-x: 50%;
+    background-position-y:50%;
+    border-radius: 10px;
+   
+}
+
+.pimg7{
+    background-image: url("Pictures/ocean.jpeg");
+    min-height: 400px;
+    border-radius: 10px;
+    transition-duration: 22000ms;
+}
+.pimg5{
+    background-image: url("Pictures/grønn.jpeg");
+    min-height: 700px;
+    border-radius: 10px;
+    
+}
+
+.section{
+
+    text-align: center;
+    padding: 70px 80px;
+}
+.section-1{
+    color: black;
+    font-style: italic;
+    text-emphasis-color: black;
+    line-height: 1.8em;
+  
+}
+
+.section-2{
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+    text-emphasis-position: right;
+    line-height: 1.8em;
+  
+
+}
+.section-3{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+
+    
+}
+.section-4{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+.section-5{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+
+}
+    
+    .ptext{
+
+        position:absolute;
+        top: 50%;
+        text-align: left;
+        color: rgb(172, 172, 172);
+        font-size: 27px;
+        letter-spacing: 8px;
+        text-transform: uppercase;
+      
+    }
+
+.ptext.border{
+    background-color: #111111;
+    color:white;
+    
+   
+}
+
+.ptext .ptext.border .trans{
+    background-color: transparent;
+}
+
+.ptext1{
+    font-size: 30px;
+    padding-top: 100px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    color: rgb(0, 160, 13);
+    border-radius: 10px;
+
+}
+
+@media (max-width: 568px){
+    .pimg1, .pimg2, .pimg3, .pimg4{
+        background-attachment: scroll;
+    }
+}
+
+
+
+
+
+    
+
+    
+    
+    
+
