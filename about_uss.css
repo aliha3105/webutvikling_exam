@@ -27,6 +27,11 @@ body, html{
     margin-top: 20px;
     margin-bottom: 20px;
 }
+.img_person:hover{
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    transition: 800ms;
+}
 .p_contactInfo{
     margin: auto;
     text-align: center;
