@@ -67,6 +67,7 @@
     transition: 0.5s;
 }
 
+
 body{
 	font-family: sans-serif;
 }
@@ -79,8 +80,6 @@ body{
     text-align: center;
     color: rgb(16, 78, 16);
     height: 200px;
-    
-    
   }
   
   .img-banner{
@@ -99,7 +98,7 @@ body{
   .footer{
     width: 100%;
     background-color: rgb(34, 31, 32);
-    margin-top: 20px;
+    margin-top: 0px;
 }
 .ul_footer{
     list-style-type: none;
@@ -123,7 +122,7 @@ body{
 .img_div_footer{
     width: 100%;
     margin: auto;
-    margin-top: 10px;
+    padding-top: 20px;
     display: flex;
     align-content: center;
 }
