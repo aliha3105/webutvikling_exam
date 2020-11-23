@@ -29,12 +29,12 @@ body, html{
 	text-align: center;
 	font-family: 'Roboto', sans-serif;
 	color: #ffffff;
-    padding: 50px 200px 200px 200px;
+    padding: 50px;
     background-image: url("Pictures/background.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100%;
-    height: 100vh;
+    height: 40vh;
 }
 #main3 {
 	width: 100%;
@@ -45,9 +45,9 @@ body, html{
 	text-align: center;
 	font-family: 'Roboto', sans-serif;
 	color: #ffffff;
-    padding: 50px 200px 200px 200px;
+    padding: 50px;
     background-size: 100%;
-    height: 100vh;
+    height: inherit;
 }
 .column {
     float: left;
