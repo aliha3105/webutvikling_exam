@@ -202,8 +202,7 @@ body, html{
     background-image: url("Pictures/app-navbar.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
-    margin-left:35%;
-    margin-right: 10%;
+    margin:auto;
     border-radius: 10px;
     width: 500px;
     height: 90px;
@@ -214,18 +213,11 @@ body, html{
 }
 
 .section-4{
-
-   
     height: 400px;
     background-color: rgb(245, 239, 239);
     text-emphasis-position: center;
     font-size: 30px;
-
-    
-        
-    
-  
-
+    width: 100%;
 }
 
 .section-4 h2{
@@ -235,12 +227,12 @@ body, html{
     margin-left: 10%;
     margin-right: 10%;
     font-size: 40px;
-
-    
-    
-    
 }
 
+.paragraph4{
+    margin: auto;
+    width: 80%;
+}
 
 
 
