@@ -203,8 +203,8 @@
 @media only screen and (max-width:441px){
 
     .logo{
-        width: 140x;
-        height: 50px;
+        
+        height: 45px;
     }
     
     .navigationButtons{
@@ -226,7 +226,6 @@
 @media only screen and (max-width:376px){
 
     .logo{
-        width: 140x;
         height: 50px;
     }
     
@@ -253,5 +252,13 @@
     }
     .p_footer{
         font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 365px){
+    
+    .logo{
+        
+        height: 35px;
     }
 }
