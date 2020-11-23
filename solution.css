@@ -195,8 +195,6 @@ body, html{
 
 }
 
-/* blabla */
-
 /* Section 4 */
 
 
@@ -284,6 +282,9 @@ body, html{
     color: rgb(0, 160, 13);
     border-radius: 10px;
 
+}
+.div_footer_flex{
+    display: flex;
 }
 
 
