@@ -10,26 +10,6 @@ body, html{
     
 } 
 
-.pimg1, .pimg2, .pimg3, .pimg4, .pimg5, .pimg6{
-    position: relative;
-    opacity: 1.0;
-    background-position: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
-
-    /*fixed = parallax
-    scroll= normal*/
-
-    background-attachment: fixed;
-
-}
-
-.pimg1{
-  
-    min-height: 100%;
-
-    
-}
 .appbilde1{
     margin-left: 90px;
     margin-right: -190px;
@@ -40,6 +20,7 @@ body, html{
     height: 800px;
     width: 16%;
     min-width: 200px;
+    max-width: 310px;
     float: left;
     background-position-x: 50%;
     background-position-y:50%;
@@ -58,6 +39,7 @@ body, html{
     height: 600px;
     width: 16%;
     min-width: 200px;
+    max-width: 300px;
     float: right;
     background-position-x: 50%;
     background-position-y:50%;
@@ -65,23 +47,7 @@ body, html{
    
 }
 
-/*.app-navbar{
-    
-    margin-left: 100px;
-    margin-top: 190px;
-    margin-right: auto;
-    background-image: url("Pictures/app-navbar.jpg");
-    background-size: 100%;
-    background-repeat: no-repeat;
-    height: 600px;
-    width: 35%;
-    min-width: 300px;
-    float: left;
-   
-    border-radius: 10px;
-   
-}
-*/
+
 
 .pimg5{
     background-image: url("Pictures/grønn.jpeg");
@@ -166,34 +132,8 @@ body, html{
     margin-right: 490px;
     margin-left: 10%;
 }
-/*.section-4{
-   
-    background-color: rgb(245, 239, 239);
-    color: #000000;
-    height: 500px;
-    font-size: 30px;
-    font-size: 30px;
-}
 
 
-.section-4 h2{
-    color: rgb(85, 181, 96);
-    text-align: center;
-    margin-top: 130px;
-    margin-left: 10%;
-    margin-right: 10%;
-    
-    
-    
-}
-
-
-
-/* .paragraph4{
-    margin-left: 10%;
-    margin-right: 10%;
-
-}
 
 /* Section 4 */
 
@@ -202,7 +142,8 @@ body, html{
     background-image: url("Pictures/app-navbar.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
-    margin:auto;
+    margin-left:35%;
+    margin-right: 10%;
     border-radius: 10px;
     width: 500px;
     height: 90px;
@@ -213,11 +154,18 @@ body, html{
 }
 
 .section-4{
+
+   
     height: 400px;
     background-color: rgb(245, 239, 239);
     text-emphasis-position: center;
     font-size: 30px;
-    width: 100%;
+
+    
+        
+    
+  
+
 }
 
 .section-4 h2{
@@ -227,12 +175,12 @@ body, html{
     margin-left: 10%;
     margin-right: 10%;
     font-size: 40px;
+
+    
+    
+    
 }
 
-.paragraph4{
-    margin: auto;
-    width: 80%;
-}
 
 
 
@@ -283,15 +231,18 @@ body, html{
     border-radius: 10px;
 
 }
+
 .div_footer_flex{
     display: flex;
 }
 
 
+
 @media only screen and (max-width:944px){
     .appbilde1{
         margin-left: 40%;
-        margin-right: -40%;
+        margin-right: -40%; 
+        
         background-size: 100%;
         background-repeat: no-repeat;
         height: 600px;
@@ -431,7 +382,6 @@ body, html{
 
 
 
-}
 
 @media only screen and (max-width:750px){
 
@@ -440,7 +390,12 @@ body, html{
         background-size: 100px;
         margin-top: 2px;
         margin-bottom: 2px;
-        margin-left: 35%;
+        /*margin-left: 35%; */
+
+        margin-left: auto;
+        margin-right: auto;
+        
+        display: block;
         
         height: 300px;
        
