@@ -8,22 +8,23 @@ body, html{
 }
 #bildeheader {
     width: 100%;
-}
-.mobil {
-	left: -10vh;
-    top: 25vh;
+    margin-bottom: 20px;
 }
 #main1 {
 	width: 100%;
 	display: flex;
 	flex-wrap: wrap;
-	background-color: #ffffff;
+    background-color: #ffffff;
+    padding: 50px;
 	text-align: right;
 	font-family: 'Roboto', sans-serif;
 	color: #373127;
-    padding: 50px;
+    margin-bottom: 20px;
     background-size: 100%;
     height: inherit;
+}
+p{
+    text-align: left;
 }
 #main2 {
 	width: 100%;
