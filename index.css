@@ -2,6 +2,7 @@
 @import url(https://fonts.googleapis.com/css?family=News+Cycle|Playfair+Display);
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 
+
 *{
 	margin: 0px;
 	padding: 0px;
@@ -19,7 +20,6 @@ body{
 
 header img{
     width: 100%;
-    margin-bottom: 20px;
     margin-top: 7%;
     position: static;
     padding-bottom: 0;
@@ -31,6 +31,7 @@ header img{
 	color: white;
 	font-size: 10vw;
     top: 20%;
+    position: absolute;
 }
 
 
@@ -38,18 +39,6 @@ header img{
 	width: 100%;
 	display: flex;
 	flex-wrap: wrap;
-    background-color: #ffffff;
-    padding: 50px;
-	text-align: right;
-	font-family: 'Roboto', sans-serif;
-	color: #373127;
-    margin-bottom: 20px;
-    background-size: 100%;
-    height: inherit;
-}
-p{
-    text-align: left;
-}
 
 	background-color: #ffffff;
 	text-align: right;
