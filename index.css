@@ -38,7 +38,7 @@ header img{
 	width: 100%;
 	display: flex;
 	flex-wrap: wrap;
-	
+
 	background-color: #ffffff;
 	text-align: right;
 	font-family: 'Roboto', sans-serif;
@@ -83,7 +83,7 @@ header img{
     width: 33.33%;
     padding: 0px;
   }
-  
+
   .row::after {
     content: "";
     clear: both;
@@ -115,19 +115,19 @@ header img{
     text-align: center;
     color: rgb(16, 78, 16);
     height: 200px;
-    
-    
+
+
   }
-  
+
   .img-banner{
       height: 300px;
       width: 100%;
       opacity: 0.4;
-      
-      
-  
+
+
+
   }
-  
+
   .banner-text{
   position: absolute;
   top: 50%;
@@ -140,22 +140,22 @@ header img{
         height: 55px;
         font-size: 20px;
 
-        
+
     }
 
 }
 
 @media only screen and (max-width:837px){
 
-   
+
 
     .navigationButtons{
-    
+
         font-size: 15pt;
     }
 
-  
-    
+
+
 }
 
 @media only screen and (max-width:540px){
@@ -165,7 +165,7 @@ header img{
         height: 70px;
     }
 
- 
+
     .navigationButtons{
 
         font-size: 12pt;
@@ -180,16 +180,16 @@ header img{
         width: 140x;
         height: 50px;
     }
-    
+
     .navigationButtons{
         margin-right: 20px;
         margin-left: -5px;
         padding-left: -5px;
     }
-    
+
     .navigationButtons{
         font-size: 9pt;
-      
+
     }
 }
 
@@ -199,15 +199,15 @@ header img{
         width: 140x;
         height: 50px;
     }
-    
+
     .navigationButtons{
         margin-right: 20px;
         margin-left: -30px;
-        
+
     }
-    
+
     .navigationButtons{
         font-size: 9pt;
-      
+
     }
 }
