@@ -102,12 +102,18 @@ body, html{
     text-decoration: none;
     color: rgb(85, 181, 96);
 }
+
+.bla_ned a:hover{
+    text-decoration: underline;
+
+}
 .section-3{
     background-color: rgb(255, 255, 255);
     color: #000000;
     text-emphasis-position: center;
     height: 660px;
     font-size: 30px;
+    line-height: 1.8;
 
     
 }
@@ -141,7 +147,7 @@ body, html{
 }
 
 .section-4{
-    height: 380px;
+    height: 580px;
     background-color: rgb(245, 239, 239);
     text-emphasis-position: center;
     font-size: 30px;
@@ -159,6 +165,10 @@ body, html{
 .section-4 a{
     text-decoration: none;
     color: rgb(85, 181, 96);
+}
+
+.section-4 a:hover{
+    text-decoration: underline;
 }
 
                                                 /* THE GAME */
@@ -239,6 +249,7 @@ body, html{
     background-color: white;
     text-emphasis-position: center;
     font-size: 30px;
+    padding-top: 90px;
 }
 
 .section5_image{
@@ -264,6 +275,10 @@ body, html{
 
 } 
 
+.gamesection{
+    padding-top: 52px;
+}
+
 .paragraph5{
     line-height: 1.8;
     margin-left: 29%;
@@ -273,7 +288,8 @@ body, html{
 /* Section 6*/
 
 .section-6{
-    padding-top: 20px;
+    padding-top: 90px;
+    padding-bottom: 60px;
     text-emphasis-position: center;
     font-size: 30px;
     background-color: rgb(245, 239, 239);
@@ -289,8 +305,9 @@ body, html{
 
 .gameinfo h2{
     color: rgb(85, 181, 96);
-    text-align: center;
+    text-align: left;
     font-size: 40px;
+    margin-left: 10%;
 
 }
 
@@ -359,7 +376,7 @@ body, html{
     }
     
     .section-4{
-        height: 380px;
+        height: 580px;
         text-emphasis-position: center;
         font-size: 25px;
     }
@@ -447,7 +464,7 @@ body, html{
 
 .section-3{
     padding-top: 200px; 
-    height: 450px;
+    height: 750px;
 }
 
 .section-3 h2{
@@ -476,7 +493,7 @@ body, html{
 }
 
 .section-4{ 
-    height: 400px;
+    height: 600px;
     width: 100%;
 }
 
@@ -497,7 +514,7 @@ body, html{
 .section5_image{   
     position: absolute;
     margin-left: 35%;
-    margin-top: -290px;
+    margin-top: -10px;
     margin-bottom: 190px;
     border-radius: 10px;
     height: 350px;
@@ -536,15 +553,20 @@ body, html{
 @media only screen and (max-width:750px){
 
     .appbilde1{
-        margin-top: 140px;
-        margin-left: 40%;
-        background-size: 100%;
-        background-repeat: no-repeat;
-        height: 250px;
-        width: 9%;
-        min-width: 100px;
-        background-position: center top;
-        border-radius: 10px;
+     
+      
+
+        margin-top: 50px;
+        margin-bottom: 2px;
+        margin-right: 29%;
+            height: 600px;
+            width: 16%;
+            min-width: 200px;
+            max-width: 300px;
+            float: right;
+            background-position-x: 50%;
+            background-position-y:50%;
+            border-radius: 10px;
     
     }
 
@@ -552,14 +574,14 @@ body, html{
     .section-2{
     padding-top: 300px;
     margin-left: 0;
-    height: 300px;
+    height: 500px;
     font-size: 25px;
     }
 
     .section-2 h2{
     font-size: 25px;
     text-align: left;   
-    margin-top: -20px;
+    margin-top: 160px;
     margin-right: 10%;
     margin-left: 90px;
     }
@@ -576,18 +598,34 @@ body, html{
     }
 
     .appbilde2{
-      padding: 0;
-        background-size: 100px;
+
         margin-top: -50px;
         margin-bottom: 2px;
         margin-right: 29%;
-        height: 300px;
+        
+            
+            background-image: url("Pictures/app-profil.png");
+            background-size: 100%;
+            background-repeat: no-repeat;
+            height: 600px;
+            width: 16%;
+            min-width: 200px;
+            max-width: 300px;
+            float: right;
+            background-position-x: 50%;
+            background-position-y:50%;
+            border-radius: 10px;
+           
+        
     }
+
+
+    
     
     .section-3{
         padding-top: 200px;
         margin-left: 0;
-        height: 200px;
+        height: 800px;
         font-size: 25px;  
     }
     
@@ -597,6 +635,7 @@ body, html{
         margin-top: 20px;
         margin-right: 10%;
         margin-left: 10%;
+        
         
     }
     
@@ -624,7 +663,7 @@ body, html{
     .section-4{
     
         width: 100%;
-        height: 500px;  
+        height: 700px;  
     }
     
     .section-4 h2{
@@ -643,13 +682,13 @@ body, html{
     }
 
     .section-5{
-        height: 460px;
+        height: 690px;
     }
 
     .section5_image{
         position: absolute;
         margin-left: 35%;
-        margin-top: -290px;
+        margin-top: -20px;
         margin-bottom: 190px;
         border-radius: 10px;
         height: 350px;
@@ -664,7 +703,7 @@ body, html{
         font-size: 25px;
         text-align: center;
         margin-top: 130px;
-        padding-top: 130px;
+        padding-top: 100px;
         margin-left: 10%;
         margin-right: 10%;
         
@@ -679,13 +718,15 @@ body, html{
 
     .gamesection-text{
         font-size: 25px;
+        margin-left: -11%;
         
     }
 
     .game_image1, .game_image2, .game_image3{
     
         width: 100px; 
-        padding: 30px 30px 1px 30px;
+        padding: 30px 30px 1px 35px;
+       
     }
 
 
@@ -715,6 +756,7 @@ body, html{
         padding-top: 130px;
         margin-left: 10%;
         margin-right: 10%;
+       
     }
 
     .paragraph6{
@@ -783,27 +825,47 @@ body, html{
     
         width: 100px;
         min-width: 90px;  
-        padding: 30px 40px 1px 10px;
+        padding: 30px 40px 1px 3%;
+    }
+
+    .section-5{
+        height: 800px;
     }
 
     
 }
 
+@media only screen and (max-width: 472px){
+
+    .game_image1, .game_image2, .game_image3{
+    
+        width: 100px;
+        min-width: 90px;  
+        padding: 30px 20px 1px 3%;
+    }   
+
+    .section-6{
+        height: inherit;
+    }
 
 
-@media only screen and (max-width: 424px){
+
+}
+
+
+@media only screen and (max-width: 434px){
 
 .section-2{
     padding-top: 400px;
     margin-left: 0;
-    height: 100px;
+    height: 300px;
     font-size: 20px;
 }
 
 .section-2 h2{
     font-size: 20px;
     text-align: center;   
-    margin-top: -100px;
+    margin-top: -90px;
     margin-right: 10%;
     margin-left: 10%;
 }
@@ -822,21 +884,37 @@ body, html{
 
 
     .appbilde2{
-        margin-left: 50%;
-        margin-right: 25%;
+        margin-top: -120px;
+        margin-bottom: 150px;
+      
+
+        margin-left: -190px;
+        margin-right: 120px;
+
+        background-size: 100%;
+        background-repeat: no-repeat;
+        height: 600px;
+        width: 16%;
+        min-width: 200px;
+        max-width: 300px;
+        float: center;
+        background-position-x: 50%;
+        background-position-y:50%;
         border-radius: 10px;
-        background-size: 100px;
+       
+        
     }
     
     .section-3{
         text-align: justify;
-        padding-top: 400px;
-        height: 50px;
+        padding-top: 100px;
+        height: 750px;
     }
     
     .section-3 h2{
         font-size: 20px;
-        margin-top: -90px;   
+        margin-top: 300px;
+         
     }
     
     .paragraph3{
@@ -862,7 +940,7 @@ body, html{
     
     .section-4{
     
-        height: 500px;
+        height: 700px;
     }
     
     .section-4 h2{
@@ -882,8 +960,73 @@ body, html{
        .game_image1, .game_image2, .game_image3{
     
         width: 100px;
-        min-width: 90px;  
-        padding: 30px 30px 1px 30px;
+        min-width: 50px;  
+        padding: 30px 1px 1px 1%;
     }
+
+    .section5_image{
+        width: auto;
+        margin: auto;
+        margin-left: 19%;
+    }
+
+    .section-5{
+        height: 900px;
+    }
+
+    .section-6{
+        padding-bottom: 90px;
+        height: 1000px;
+    }
+
+    .section6_image{
+        width: 90px;
+        margin-left: 10%;
+        
+    }
+
+}
+
+@media only screen and (max-width: 323px){
+
+   .appbilde1{
+        
+        margin-right: 15%;
+        
+    } 
+
+    .appbilde2{
+        margin-right: 15%;
+    }
+
+
+
+    .section-2 a{
+        margin-top: -90px;
+
+    }
+
+    .app-navbar{
+        margin-left: 22%;
+       
+    }
+
+    
+    .game_image1, .game_image2, .game_image3{
+    
+        width: 90px;
+        min-width: 50px;  
+        padding: 30px 1px 1px 1%;
+    }
+    
+    .gamesection-text{
+        margin-left: -25%;
+        margin-right: 4%;
+    }
+
+    .section-6{
+        height: 1200px;
+    }
+
 
 }
