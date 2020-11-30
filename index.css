@@ -2,16 +2,23 @@
 @import url(https://fonts.googleapis.com/css?family=News+Cycle|Playfair+Display);
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 
-
-*{
-	margin: 0px;
-	padding: 0px;
-	box-sizing: border-box;
+body, html{
+    margin: 0;
+    padding: 0;
 }
-
 body{
     font-family: sans-serif;
     background-color: white;
+}
+
+.hovedside{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 90px;
+}
+.div_footer_flex{
+    display: flex;
+    width: 100%;
 }
 
 #bildeheader {
@@ -20,7 +27,6 @@ body{
 
 header img{
     width: 100%;
-    margin-top: 7%;
     position: static;
     padding-bottom: 0;
 }
@@ -34,6 +40,13 @@ header img{
     position: absolute;
 }
 
+p{
+    font-size: 25px;
+}
+.h1_main1{
+    font-size: 35px;
+}
+
 
 #main1 {
 	width: 100%;
@@ -44,7 +57,8 @@ header img{
 	text-align: right;
 	font-family: 'Roboto', sans-serif;
 	color: #373127;
-	padding: 5% 20% 20% 20%;
+    padding: 5%;
+    height: inherit;
 }
 
 
@@ -58,25 +72,25 @@ header img{
 	width: 100%;
 	display: flex;
     flex-wrap: wrap;
-	height: 500px;
+	height: inherit;
 	text-align: center;
 	font-family: 'Roboto', sans-serif;
 	color: #ffffff;
-    padding: 5% 20% 20% 20%;
+    padding: 5%;
     background-image: url("Pictures/background.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-repeat: repeat;
 }
 
 #main3 {
-	width: 100%;
+    width: 100%;
+    height: inherit;
 	display: flex;
 	flex-wrap: wrap;
 	background-color: #1c1d22;
 	text-align: center;
 	font-family: 'Roboto', sans-serif;
 	color: #ffffff;
-	padding: 5% 20% 20% 20%;
+	padding: 5%;
 }
 
 .column {
@@ -95,20 +109,9 @@ header img{
     .column {
       width: 100%;
     }
-
-.navbar {
-	order: 1;
-}
-
-
 .bildeheader {
 	order: 2;
 }
-
-
-/* SOLUTION */
-
-
 
 .banner{
     margin-top: 100px;
@@ -116,17 +119,12 @@ header img{
     text-align: center;
     color: rgb(16, 78, 16);
     height: 200px;
-
-
   }
 
   .img-banner{
       height: 300px;
       width: 100%;
       opacity: 0.4;
-
-
-
   }
 
   .banner-text{
@@ -135,6 +133,7 @@ header img{
   left: 50%;
   transform: translate(-50%, -50%);
   }
+}
 
 @media only screen and (max-width:1150px){
     .navbar{
