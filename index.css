@@ -1,80 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=Roboto:ital,wght@0,300;1,400&display=swap');
+@import url(https://fonts.googleapis.com/css?family=News+Cycle|Playfair+Display);
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
 body, html{
     margin: 0;
     padding: 0;
 }
-#bildeheader {
+body{
+    font-family: sans-serif;
+    background-color: white;
+}
+
+.hovedside{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 90px;
+}
+.div_footer_flex{
+    display: flex;
     width: 100%;
 }
-.mobil {
-	left: -10vh;
-    top: 25vh;
+
+#bildeheader {
+  width: 100%;
 }
-#main1 {
-	width: 100%;
-	display: flex;
-	flex-wrap: wrap;
-	background-color: #ffffff;
-	text-align: right;
-	font-family: 'Roboto', sans-serif;
-	color: #373127;
-    padding: 50px;
-    background-size: 100%;
-    height: 40vh;
+
+header img{
+    width: 100%;
+    position: static;
+    padding-bottom: 0;
 }
-#main2 {
-	width: 100%;
-	display: flex;
-    flex-wrap: wrap;
-	height: 500px;
-	text-align: center;
-	font-family: 'Roboto', sans-serif;
-	color: #ffffff;
-    padding: 50px;
-    background-image: url("Pictures/background.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 100%;
-    height: 40vh;
-}
-#main3 {
-	width: 100%;
-	display: flex;
-	flex-wrap: wrap;
-	height: 700px;
-	background-color: #1c1d22;
-	text-align: center;
-	font-family: 'Roboto', sans-serif;
-	color: #ffffff;
-    padding: 50px;
-    background-size: 100%;
-    height: inherit;
-}
-.column {
-    float: left;
-    width: 33.33%;
-    padding: 20px;
-}
+
 .centered {
 	left: 10vh;
 	font-family: 'Oswald', sans-serif;
 	color: white;
 	font-size: 10vw;
-    padding-top: 10px;
+    top: 20%;
     position: absolute;
-    top: 25vh;
-  }
-  header img{
-    width: 100%;
-    margin-top: 7%;
-    position: static;
 }
-.row::after {
+
+p{
+    font-size: 25px;
+}
+.h1_main1{
+    font-size: 35px;
+}
+
+
+#main1 {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+
+	background-color: #ffffff;
+	text-align: right;
+	font-family: 'Roboto', sans-serif;
+	color: #373127;
+    padding: 5%;
+    height: inherit;
+}
+
+
+.bilde1 {
+    float: left;
+    width: 40%;
+}
+
+
+#main2 {
+	width: 100%;
+	display: flex;
+    flex-wrap: wrap;
+	height: inherit;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	color: #ffffff;
+    padding: 5%;
+    background-image: url("Pictures/background.jpg");
+    background-repeat: repeat;
+}
+
+#main3 {
+    width: 100%;
+    height: inherit;
+	display: flex;
+	flex-wrap: wrap;
+	background-color: #1c1d22;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	color: #ffffff;
+	padding: 5%;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 0px;
+  }
+
+  .row::after {
     content: "";
     clear: both;
     display: table;
   }
-*{
-	margin: 0px;
-	padding: 0px;
-	box-sizing: border-box;
+
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+.bildeheader {
+	order: 2;
+}
+
+.banner{
+    margin-top: 100px;
+    position: relative;
+    text-align: center;
+    color: rgb(16, 78, 16);
+    height: 200px;
+  }
+
+  .img-banner{
+      height: 300px;
+      width: 100%;
+      opacity: 0.4;
+  }
+
+  .banner-text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  }
+}
+
+@media only screen and (max-width:1150px){
+    .navbar{
+        height: 55px;
+        font-size: 20px;
+
+
+    }
+
+}
+
+@media only screen and (max-width:837px){
+
+
+
+    .navigationButtons{
+
+        font-size: 15pt;
+    }
+
+
+
+}
+
+@media only screen and (max-width:540px){
+
+    .logo{
+        width: 160x;
+        height: 70px;
+    }
+
+
+    .navigationButtons{
+
+        font-size: 12pt;
+
+
+    }
+}
+
+@media only screen and (max-width:441px){
+
+    .logo{
+        width: 140x;
+        height: 50px;
+    }
+
+    .navigationButtons{
+        margin-right: 20px;
+        margin-left: -5px;
+        padding-left: -5px;
+    }
+
+    .navigationButtons{
+        font-size: 9pt;
+
+    }
+}
+
+@media only screen and (max-width:376px){
+
+    .logo{
+        width: 140x;
+        height: 50px;
+    }
+
+    .navigationButtons{
+        margin-right: 20px;
+        margin-left: -30px;
+
+    }
+
+    .navigationButtons{
+        font-size: 9pt;
+
+    }
 }
