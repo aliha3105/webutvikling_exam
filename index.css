@@ -36,14 +36,15 @@ body{
 	font-family: 'Oswald', sans-serif;
 	color: white;
 	font-size: 10vw;
-    position: absolute;
     top: 5%;
+    margin-top: -25%;
 }
 
 p{
     font-size: 25px;
 }
 h1{
+    width: 100%;
     font-size: 40px;
     font-weight: bold;
 }
@@ -53,19 +54,25 @@ h1{
 	width: 100%;
 	display: flex;
 	flex-wrap: wrap;
-
-	background-color: #ffffff;
-	text-align: right;
 	font-family: 'Roboto', sans-serif;
 	color: #373127;
     padding: 5%;
     height: inherit;
 }
+.p_main1{
+    width: 60%;
+    padding: 5px;
+    text-align: left;
+}
+
+.div_bilde1{
+    width: 35%;
+    float: left;
+}
 
 
 .bilde1 {
-    float: left;
-    width: 35%;
+    width: 100%;
 }
 
 
@@ -100,32 +107,49 @@ h1{
     padding: 0px;
 }
 
+.row{
+    width: 100%;
+}
+
 .row::after {
     content: "";
     clear: both;
     display: table;
 }
 
-@media screen and (max-width: 600px) {
-    
-}
-
 @media only screen and (max-width:1150px){
-
+    p{
+        font-size: 20px;
+    }
 }
 
 @media only screen and (max-width:837px){
-
+    h1{
+        font-size: 30px;
+    }
+    p{
+        font-size: 18px;
+    }
+}
+@media only screen and (max-width:730px){
+    .div_bilde1{
+        width: 100%;
+    }
+    .p_main1{
+        width: 100%;
+    }
 }
 
 @media only screen and (max-width:540px){
+    h1{
+        font-size: 25px;
+    }
+    p{
+        font-size: 15px;
+    }
     .column {
         width: 100%;
     }
-    .bildeheader {
-        order: 2;
-    }
-  
     .banner{
         margin-top: 100px;
         position: relative;
@@ -149,9 +173,13 @@ h1{
 }
 
 @media only screen and (max-width:441px){
-
+    h1{
+        font-size: 20px;
+    }
 }
 
 @media only screen and (max-width:376px){
-
+    h1{
+        font-size: 18px;
+    }
 }
