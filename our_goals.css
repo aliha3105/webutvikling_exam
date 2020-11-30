@@ -6,6 +6,7 @@ body, html{
     font-family: "lato", sans-serif;
     font-weight: 400;
     color: black;
+    
     /* line-height: 1.8em; */
 
 }
@@ -82,11 +83,12 @@ body, html{
     background-color: rgb(255, 255, 255);
     color: #000000;
     text-emphasis-position: right;
-    line-height: 1.8em;
+    line-height: 1.9em;
 }
 .section-3{
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
+    line-height: 40px;
 }
 .section-4{
     background-color: rgb(255, 255, 255);
