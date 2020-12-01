@@ -168,42 +168,7 @@ body, html{
     text-decoration: underline;
 }
 
-                                                /* THE GAME */
 
-.gamesection{
-    width: 100%;
-}
-
-.game_image1, .game_image2, .game_image3{
-    
-    width: 16%;
-    max-width: 270px;
-    min-width: 160px;  
-    padding: 30px 70px 1px 100px;
-}
-
-
-
-.gamesection-text{
-    margin-top: 100px;
-    font-size: 30px;
-    line-height: 1.8;
-    padding-left: 100px;
-
-}
-
-.gamesection h2{
-    color: rgb(85, 181, 96);
-}
-
-.gamesection-text a{
-    color: rgb(85, 181, 96);
-    text-decoration: none;
-}
-
-.gamesection-text a:hover{
-    text-decoration: underline;
-}
 
 
 
@@ -280,9 +245,44 @@ body, html{
     margin-left: 28%;
 }
 
-.gamesection{
-    padding-top: 52px;
-}
+
+     /* THE GAME */
+
+    .gamesection{
+        width: 100%;
+        padding-top: 52px;
+    }
+                                                
+    .game_image1, .game_image2, .game_image3{
+                                                    
+        width: 16%;
+        max-width: 270px;
+        min-width: 160px;  
+        padding: 30px 70px 1px 100px;
+        }
+                                                
+                                                
+                                                
+    .gamesection-text{
+        margin-top: 100px;
+        font-size: 30px;
+        line-height: 1.8;
+        padding-left: 100px;
+                                                
+        }
+                                                
+    .gamesection h2{
+        color: rgb(85, 181, 96);
+        }
+                                                
+    .gamesection-text a{
+        color: rgb(85, 181, 96);
+        text-decoration: none;
+         }
+                                                
+    .gamesection-text a:hover{
+        text-decoration: underline;
+        }
 
 .paragraph5{
     line-height: 1.8;
