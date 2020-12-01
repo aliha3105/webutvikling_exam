@@ -120,6 +120,7 @@ body, html{
     color: rgb(49, 124, 49);
     margin-right: 490px;
     margin-left: 10%;
+    text-align: center;
 }
 
 .paragraph3{
@@ -394,6 +395,12 @@ body, html{
         margin-right: 10%;
         font-size: 40px;
     }
+
+    .game-bilde{
+        
+        margin-left: 10%;
+        margin-right: auto;
+    }
     
     .game_image1, .game_image2, .game_image3{
     
@@ -561,6 +568,16 @@ body, html{
 } 
 
 @media only screen and (max-width:886px){
+
+    .game_image1, .game_image2, .game_image3{
+    
+        width: 100px; 
+        padding: 30px 10px 1px 10px;
+       
+    }
+
+
+
     .gamesection-text{
         margin-right: 10%;
     }
@@ -595,6 +612,7 @@ body, html{
     }
 
     .section-2 h2{
+    color: darkmagenta;
     font-size: 25px;
     text-align: left;   
     margin-top: 160px;
@@ -731,13 +749,11 @@ body, html{
         
     }
 
-    .game_image1, .game_image2, .game_image3{
-    
-        width: 100px; 
-        padding: 30px 30px 1px 35px;
-       
+    .game-bilde{
+        margin-left: 1%;
     }
 
+ 
 
     .section-6{
         height: 900px;
@@ -826,7 +842,7 @@ body, html{
   
 }
 
-@media only screen and (max-width: 552px){
+@media only screen and (max-width: 577px){
 
     .appbilde2{
         float: center;
@@ -838,7 +854,7 @@ body, html{
     
         width: 100px;
         min-width: 90px;  
-        padding: 30px 40px 1px 3%;
+        padding: 30px 20px 1px 20px;
     }
 
     .section-5{
@@ -848,13 +864,13 @@ body, html{
     
 }
 
-@media only screen and (max-width: 472px){
+@media only screen and (max-width: 476px){
 
     .game_image1, .game_image2, .game_image3{
     
         width: 100px;
         min-width: 90px;  
-        padding: 30px 20px 1px 3%;
+        padding: 30px 15px 1px 5px;
     }   
 
     .section-4{
@@ -971,7 +987,7 @@ body, html{
     
         width: 100px;
         min-width: 50px;  
-        padding: 30px 1px 1px 1%;
+        padding: 30px 2px 1px 2%;
     }
 
     .gamesection-text{
@@ -1001,14 +1017,40 @@ body, html{
 
 }
 
-@media only screen and (max-width: 353px){
+@media only screen and (max-width: 376px){
+    .game-bilde{
+        margin-left: 1.9%;
+    }
+
+    .game_image1, .game_image2, .game_image3{
+    
+        width: 100px;
+        min-width: 50px;  
+        padding: 30px 1px 1px 8px;
+    }
+
+}
+
+@media only screen and (max-width: 358px){
+
+    .game-bilde{
+        margin-left: 2%;
+    }
+
+    .game_image1, .game_image2, .game_image3{
+    
+        width: 100px;
+        min-width: 50px;  
+        padding: 30px 1px 1px 1%;
+    }
+
     .section-4{
         height: 850px;
     }
 
 }
 
-@media only screen and (max-width: 323px){
+@media only screen and (max-width: 328px){
 
    .appbilde1{
         
