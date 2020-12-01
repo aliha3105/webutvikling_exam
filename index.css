@@ -89,6 +89,18 @@ h1{
     background-image: url("Pictures/background.jpg");
     background-repeat: repeat;
 }
+.div_main2_h1{
+    width: 100%;
+    text-align: center;
+}
+
+#main2 p{
+    background-color: #373127;
+}
+#main2 h1{
+    background-color: #373127;
+    margin: auto;
+}
 
 #main3 {
     width: 100%;
