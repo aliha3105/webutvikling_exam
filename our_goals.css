@@ -116,7 +116,7 @@ body, html{
     padding-top: 100px;
     text-transform: uppercase;
     letter-spacing: 10px;
-    color: black;
+    color: rgb(49, 124, 49);
     border-radius: 10px;
 }
 p{
