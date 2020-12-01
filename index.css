@@ -42,6 +42,7 @@ body{
 
 p{
     font-size: 25px;
+    line-height: 1.8;
 }
 h1{
     width: 100%;
@@ -99,6 +100,15 @@ h1{
 	font-family: 'Roboto', sans-serif;
 	color: #ffffff;
 	padding: 5%;
+}
+
+#main3 a{
+    text-decoration: none;
+    color:  rgb(85, 181, 96);
+}
+
+#main3 a:hover{
+    text-decoration: underline;
 }
 
 .column {
