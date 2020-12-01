@@ -67,7 +67,7 @@ body, html{
 
 .section-2{
 
-    background-color: rgb(245, 239, 239);
+    background-color: rgb(252, 245, 245);
     color: #000000;
     height: 570px;
     font-size: 30px;
@@ -75,7 +75,7 @@ body, html{
 
 .section-2 h2{
     font-size: 40px;
-    color: rgb(85, 181, 96);
+    color: rgb(49, 124, 49);
     text-align: center;
     margin-left: 490px;
     margin-right: 10%;
@@ -91,14 +91,13 @@ body, html{
 .bla_ned{
     position: relative;
     margin-top: 10%;
-    color: rgb(85, 181, 96);
     margin-left: 490px;
     margin-right: 10%;
 }
 
 .bla_ned a{
     text-decoration: none;
-    color: rgb(85, 181, 96);
+    color: rgb(49, 124, 49);
 }
 
 .bla_ned a:hover{
@@ -118,7 +117,7 @@ body, html{
 
 .section-3 h2{
     font-size: 40px;
-    color: rgb(85, 181, 96);
+    color: rgb(49, 124, 49);
     margin-right: 490px;
     margin-left: 10%;
 }
@@ -153,7 +152,7 @@ body, html{
 }
 
 .section-4 h2{
-    color: rgb(85, 181, 96);
+    color: rgb(49, 124, 49);
     text-align: center;
     margin-top: 40px;
     margin-left: auto;
@@ -163,7 +162,7 @@ body, html{
 
 .section-4 a{
     text-decoration: none;
-    color: rgb(85, 181, 96);
+    color: rgb(49, 124, 49);
 }
 
 .section-4 a:hover{
@@ -229,7 +228,7 @@ body, html{
 }
 
 .productinfo h2{
-    color: rgb(85, 181, 96);
+    color: rgb(49, 124, 49);
     text-align: left;
 }
 
@@ -274,11 +273,11 @@ body, html{
         }
                                                 
     .gamesection h2{
-        color: rgb(85, 181, 96);
+        color: rgb(49, 124, 49);
         }
                                                 
     .gamesection-text a{
-        color: rgb(85, 181, 96);
+        color: rgb(49, 124, 49);
         text-decoration: none;
          }
                                                 
@@ -310,7 +309,7 @@ body, html{
 }
 
 .gameinfo h2{
-    color: rgb(85, 181, 96);
+    color: rgb(49, 124, 49);
     text-align: left;
     font-size: 40px;
     margin-left: 10%;
@@ -360,7 +359,7 @@ body, html{
     padding-top: 100px;
     text-transform: uppercase;
     letter-spacing: 10px;
-    color: rgb(0, 160, 13);
+    color: rgb(49, 124, 49);
     border-radius: 10px;
 
 }
