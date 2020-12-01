@@ -198,6 +198,7 @@ body, html{
 
 .gamesection-text a{
     color: rgb(85, 181, 96);
+    text-decoration: none;
 }
 
 .gamesection-text a:hover{
